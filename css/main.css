@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #edf0f5 !important;
+}
+
+h1 {
+  padding: 0 !important;
+}
+
+.box-shadow1 {
+  box-shadow: 0 0 5px 1px;
+}
+
+/*
+Navbar start
+ */
+
+
+nav {
+  padding: 20px 20px 10px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #1B2A38;
+  color: white;
+  margin-bottom: 30px;
+}
+
+nav .topnav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none !important;
+  color: unset !important;
+  font-weight: 600;
+}
+
+nav .logoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav .logoWrapper .fa-person-booth {
+  font-size: 45px;
+  color: white !important;
+}
+
+.topnav .aLinksWrapper a:hover:after  {
+  background-color: #ffffff;
+  -webkit-animation: flicker2 1s linear infinite;
+  animation: flicker 1s linear infinite;
+  opacity: 1;
+  width: 100%;
+}
+
+nav .aLinksWrapper a {
+  position: relative;
+}
+
+@keyframes flicker {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.topnav .aLinksWrapper a:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  border-radius: 2px;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all .4s ease;
+  box-shadow: 0 0 20px 2px #ffffff, 0 0 20px 2px #ffffff, 0 0 20px 2px #ffffff, 0 0 20px 2px #ffffff, 0 0 10px #ffffff, 0 0 4px #ffffff, 0 0 2px #ffffff;
+}
+
+.topnav .aLinksWrapper .yellowFlicker:after {
+  box-shadow: 0 0 20px 2px #ffc724, 0 0 20px 2px #ffc724, 0 0 20px 2px #ffc724, 0 0 20px 2px #ffc724, 0 0 10px #ffc724, 0 0 4px #ffc724, 0 0 2px #ffc724;
+}
+
+.topnav .aLinksWrapper .whiteFlicker:after {
+  box-shadow: 0 0 20px 2px #ffffff, 0 0 20px 2px #ffffff, 0 0 20px 2px #ffffff, 0 0 20px 2px #ffffff, 0 0 10px #ffffff, 0 0 4px #ffffff, 0 0 2px #ffffff;
+}
+
+.topnav .aLinksWrapper .greenFlicker:after {
+  box-shadow: 0 0 20px 2px #3fc34d, 0 0 20px 2px #3fc34d, 0 0 20px 2px #3fc34d, 0 0 20px 2px #3fc34d, 0 0 10px #3fc34d, 0 0 4px #3fc34d, 0 0 2px #3fc34d;
+}
+
+.topnav .aLinksWrapper .redFlicker:after {
+  box-shadow: 0 0 20px 2px #ef0000, 0 0 20px 2px #ef0000, 0 0 20px 2px #ef0000, 0 0 20px 2px #ef0000, 0 0 10px #ef0000, 0 0 4px #ef0000, 0 0 2px #ef0000;
+}
+
+.topnav .aLinksWrapper .cyanFlicker:after {
+  box-shadow: 0 0 20px 2px #1ec3f5, 0 0 20px 2px #1ec3f5, 0 0 20px 2px #1ec3f5, 0 0 20px 2px #1ec3f5, 0 0 10px #1ec3f5, 0 0 4px #1ec3f5, 0 0 2px #1ec3f5;
+}
+
+.topnav .aLinksWrapper .purpleFlicker:after {
+  box-shadow: 0 0 20px 2px #5517c1, 0 0 20px 2px #5517c1, 0 0 20px 2px #5517c1, 0 0 20px 2px #5517c1, 0 0 10px #5517c1, 0 0 4px #5517c1, 0 0 2px #5517c1;
+}
+
+.topnav .aLinksWrapper .orangeFlicker:after {
+  box-shadow: 0 0 20px 2px #df6655, 0 0 20px 2px #df6655, 0 0 20px 2px #df6655, 0 0 20px 2px #df6655, 0 0 10px #df6655, 0 0 4px #df6655, 0 0 2px #df6655;
+}
+
+/*
+Navbar slut
+ */
+
+.tableHead {
+  border-bottom: 2px solid black !important;
+  padding: 20px 20px 18px !important;
+  font-size: 18px !important;
+  background-color: white !important;
+}
+
+.candidate {
+  padding: 20px 20px !important;
+  font-size: 18px;
+  background-color: #1B2A38;
+  color: white;
+}
+
+.candidate a{
+  color: white;
+}
+
+.candidate a:hover{
+  color: white;
+}
+
+.candidate:nth-child(2n) {
+  background-color: white;
+  color: #1B2A38;
+}
+
+.candidate:nth-child(2n) a {
+  color: #1B2A38;
+}
+
+input[type=text], #sltParty {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 0 0 8px 0;
+  box-sizing: border-box;
+  border: 3px solid darkgrey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #1B2A38 !important;
+}
+
+#boxSearch {
+  padding: 0;
+}
+
+#txtSearch {
+  width: 20%;
+  padding: 6px 20px;
+  margin: 0 0 8px 0;
+  border: 3px solid darkgrey;
+  transition: 0.5s;
+  outline: none;
+}
+
+#txtSearch:focus {
+  width: 30%;
+}
+
+.formWrapper {
+  padding: 20px 20px 30px !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 90% !important;
+  max-width: 600px !important;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px;
+  margin: auto;
+}
+
+.formHeader {
+  max-width: 600px !important;
+  margin: 30px auto !important;
+  padding: 0 !important;
+}
+
+.btnDeleteCandidate {
+  cursor: pointer;
+}
+
