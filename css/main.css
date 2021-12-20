@@ -16,6 +16,23 @@ h1 {
   box-shadow: 0 0 5px 1px;
 }
 
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  color: unset !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.btn-primary {
+  color: #fff!important;
+}
+
 /*
 Navbar start
  */
@@ -118,6 +135,8 @@ nav .aLinksWrapper a {
 Navbar slut
  */
 
+
+
 .tableHead {
   border-bottom: 2px solid black !important;
   padding: 20px 20px 18px !important;
@@ -125,27 +144,31 @@ Navbar slut
   background-color: white !important;
 }
 
-.candidate {
+.tableBody {
+  padding: 0 !important;
+}
+
+.candidate, .party {
   padding: 20px 20px !important;
   font-size: 18px;
   background-color: #1B2A38;
   color: white;
 }
 
-.candidate a{
+.candidate a, .party{
   color: white;
 }
 
-.candidate a:hover{
+.candidate a:hover, .party a:hover{
   color: white;
 }
 
-.candidate:nth-child(2n) {
+.candidate:nth-child(2n), .party:nth-child(2n) {
   background-color: white;
   color: #1B2A38;
 }
 
-.candidate:nth-child(2n) a {
+.candidate:nth-child(2n) a, .party:nth-child(2n) a {
   color: #1B2A38;
 }
 
@@ -202,5 +225,47 @@ input[type=text]:focus {
 
 .btnDeleteCandidate {
   cursor: pointer;
+}
+
+/*
+Forside
+ */
+
+.progressContainer  {
+  height: 24px;
+  background-color: grey;
+  border-radius: 4px;
+}
+
+.myProgress {
+  height: 24px;
+  background-color: #46dfc0;
+  border-radius: 4px;
+}
+
+.partySymbol {
+  margin-right: 15px;
+}
+
+.candidateListHeader {
+  padding: 20px 20px 0 !important;
+  font-size: 18px !important;
+  background-color: white !important;
+  width: 100%;
+}
+
+.candidateListHeader p {
+  border-bottom: 1px solid #878787 !important;
+  padding-bottom: 10px !important;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.candidateListHeader p .smallCaption {
+  font-size: 18px;
+}
+
+.candidateText {
+  margin-bottom: 5px;
 }
 

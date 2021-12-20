@@ -29,8 +29,8 @@ function insertCandidateToUI(candidateData) {
                             <div class='col-sm-2 candidateID'>${candidateData.candidateID}</div>
                             <div class='col-sm-2 candidateName'>${candidateData.candidateName}</div>
                             <div class='col-sm-2 candidateParty'>${candidateData.party.partyName}</div>
-                            <div class="col-sm-2"> <a href="candidate.html/?candidate_id=${candidateData.candidateID}">View</a></div>
-                            <div class="col-sm-2"> <a href="editCandidate.html/?candidate_id=${candidateData.candidateID}">Rediger</a></div>
+                            <div class="col-sm-2"> <a href="candidate.html?candidate_id=${candidateData.candidateID}">View</a></div>
+                            <div class="col-sm-2"> <a href="editCandidate.html?candidate_id=${candidateData.candidateID}">Rediger</a></div>
                             <div class="col-sm-2 btnDeleteCandidate" data-id="${candidateData.candidateID}">Slet</div>
                    </div>`;
   candidateContainer.insertAdjacentHTML("beforeend", candidate);
@@ -61,8 +61,8 @@ document.querySelector(".sortAfterParty").addEventListener("click", function () 
                               <div class='col-sm-2 candidateID'>${candidatesArray[i].candidateID}</div>
                               <div class='col-sm-2 candidateName'>${candidatesArray[i].candidateName}</div>
                               <div class='col-sm-2 candidateParty'>${candidatesArray[i].party.partyName}</div>
-                              <div class="col-sm-2"> <a href="candidate.html/?candidate_id=${candidatesArray[i].candidateID}">View</a></div>
-                              <div class="col-sm-2"> <a href="editCandidate.html/?candidate_id=${candidatesArray[i].candidateID}">Rediger</a></div>
+                              <div class="col-sm-2"> <a href="candidate.html?candidate_id=${candidatesArray[i].candidateID}">View</a></div>
+                              <div class="col-sm-2"> <a href="editCandidate.html?candidate_id=${candidatesArray[i].candidateID}">Rediger</a></div>
                               <div class="col-sm-2 btnDeleteCandidate" data-id="${candidatesArray[i].candidateID}">Slet</div>
                      </div>`;
     candidateContainer.insertAdjacentHTML("beforeend", candidate);

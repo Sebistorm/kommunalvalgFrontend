@@ -22,6 +22,7 @@ function fetchData() {
 function setData(data){
 
   document.querySelector(".candidateName").value = data.candidateName;
+  document.querySelector(".numberOfVotes").value = data.numberOfVotes;
   let option = document.querySelectorAll(".option");
   for (let i = 0; i < option.length; i++) {
     if (option[i].value == data.party.partyID) {
@@ -41,6 +42,7 @@ document.querySelector("#frmEditCandidate").addEventListener("submit", async fun
     let CandidateObject = {};
 
     CandidateObject.candidateName = form.candidateName.value;
+    CandidateObject.numberOfVotes = form.numberOfVotes.value;
     CandidateObject.party = {};
     CandidateObject.party.partyID = form.partyID.value;
 

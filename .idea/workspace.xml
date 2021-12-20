@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8731c613-6d3f-4631-b510-148093888932" name="Default Changelist" comment="" />
+    <list default="true" id="8731c613-6d3f-4631-b510-148093888932" name="Default Changelist" comment="1st commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/frontpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/candidate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candidates.html" beforeDir="false" afterPath="$PROJECT_DIR$/candidates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createCandidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/createCandidate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editCandidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/editCandidate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/createCandidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/createCandidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/editCandidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/editCandidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fetchAllCandidates.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fetchAllCandidates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fetchCandidat.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fetchCandidat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fetchParties.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fetchParties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +27,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="22Y32yJO0aTHrWam2K2LAQn3fc1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -53,11 +75,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640000491855</updated>
-      <workItem from="1640000493348" duration="18118000" />
+      <workItem from="1640000493348" duration="33767000" />
     </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <created>1640023764633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640023764633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
   </component>
 </project>

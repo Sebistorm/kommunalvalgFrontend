@@ -25,4 +25,5 @@ function setData(data){
   document.querySelector(".candidateID").innerHTML = data.candidateID;
   document.querySelector(".candidateName").innerHTML = data.candidateName;
   document.querySelector(".candidateParty").innerHTML = data.party.partyName;
+  document.querySelector(".numberOfVotes").innerHTML = data.numberOfVotes;
 }

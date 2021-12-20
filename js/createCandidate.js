@@ -13,6 +13,7 @@ document.querySelector("#frmCreateCandidate").addEventListener("submit", async f
     let CandidateObject = {};
 
     CandidateObject.candidateName = form.candidateName.value;
+    CandidateObject.numberOfVotes = form.numberOfVotes.value;
     CandidateObject.party = {};
     CandidateObject.party.partyID = form.partyID.value;
 
