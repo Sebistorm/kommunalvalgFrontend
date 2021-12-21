@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8731c613-6d3f-4631-b510-148093888932" name="Default Changelist" comment="1st commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/frontpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party.html" afterDir="false" />
+    <list default="true" id="8731c613-6d3f-4631-b510-148093888932" name="Default Changelist" comment="2nd commit">
+      <change afterPath="$PROJECT_DIR$/js/fetchParty.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/candidate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candidates.html" beforeDir="false" afterPath="$PROJECT_DIR$/candidates.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/createCandidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/createCandidate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editCandidate.html" beforeDir="false" afterPath="$PROJECT_DIR$/editCandidate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/createCandidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/createCandidate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/editCandidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/editCandidate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/fetchAllCandidates.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fetchAllCandidates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/fetchCandidat.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fetchCandidat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/fetchParties.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fetchParties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/frontpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/frontpage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/party.html" beforeDir="false" afterPath="$PROJECT_DIR$/party.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -75,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640000491855</updated>
-      <workItem from="1640000493348" duration="33767000" />
+      <workItem from="1640000493348" duration="39035000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1640023764633</created>
@@ -84,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640023764633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit">
+      <created>1640043482218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640043482218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
 </project>

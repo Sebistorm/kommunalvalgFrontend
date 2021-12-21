@@ -6,6 +6,7 @@
 
 body {
   background-color: #edf0f5 !important;
+  padding-bottom: 50px !important;
 }
 
 h1 {
@@ -39,7 +40,7 @@ Navbar start
 
 
 nav {
-  padding: 20px 20px 10px;
+  padding: 20px 20px 20px;
   font-size: 22px;
   font-weight: 600;
   background-color: #1B2A38;

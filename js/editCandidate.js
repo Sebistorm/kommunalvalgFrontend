@@ -64,7 +64,7 @@ document.querySelector("#frmEditCandidate").addEventListener("submit", async fun
     } else {
       document.querySelector(".msg").innerHTML = "Informationerne er opdateret. Du vil blive ledt tilbage til den forrige side om 3 sek."
       setTimeout(function () {
-        location.href = "../candidates.html";
+        location.href = "candidates.html";
       }, 3000)
     }
 

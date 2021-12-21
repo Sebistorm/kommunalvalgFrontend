@@ -100,7 +100,7 @@ function insertCandidateToUI(data) {
                               <div class="progressContainer w-75">
                               <div class="myProgress" style="width:${percentage}%"></div>
                             </div>
-                            <div class="w-20">${percentage}</div>
+                            <div class="w-20">${percentage}%</div>
                             </div>
                          </div>`;
     tableBody.insertAdjacentHTML("beforeend", candidate);
